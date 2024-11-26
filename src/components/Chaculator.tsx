@@ -13,7 +13,7 @@ const formatARS = (value) => {
   }).format(value);
 };
 
-const FinancialCalculator = () => {
+const Chaculator = () => {
   // Base inputs
   const [baseRevenue, setBaseRevenue] = useState(53400000);
   const [additionalDays, setAdditionalDays] = useState(1);
@@ -108,7 +108,7 @@ const FinancialCalculator = () => {
     <div className="w-full max-w-6xl mx-auto p-4 space-y-6">
       <Card>
         <CardHeader>
-          <CardTitle>Strange Brewing Financial Calculator</CardTitle>
+          <CardTitle>Strange Brewing Calculator</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -200,4 +200,4 @@ const FinancialCalculator = () => {
   );
 };
 
-export default FinancialCalculator;
+export default Chaculator;
